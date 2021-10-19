@@ -1,7 +1,7 @@
 apiVersion: static-route.ibm.com/v1
 kind: StaticRoute
 metadata:
-  name: <route_name>
+  name: mystaticroute
 spec:
   subnet: "<subnet_CIDR>"
   gateway: "<gateway_IP>"
