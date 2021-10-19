@@ -1,0 +1,12 @@
+apiVersion: static-route.ibm.com/v1
+kind: StaticRoute
+metadata:
+  name: <route_name>
+spec:
+  subnet: "<subnet_CIDR>"
+  gateway: "<gateway_IP>"
+  selectors:
+    - key: "<label_key>"
+      values:
+        - "<label_value>"
+      operator: In
